@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .row,
+        .custom-border {
+            border: 1px solid;
+            padding: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Grid System</h1>
+        <hr>
+        <!-- <div class="row">
+            <div class="col-md-1 custom-border">col-md-1</div>
+            <div class="col-md-1 custom-border">col-md-1</div>
+            <div class="col-md-1 custom-border">col-md-1</div>
+            <div class="col-md-1 custom-border">col-md-1</div>
+            <div class="col-md-1 custom-border">col-md-1</div>
+            <div class="col-md-1 custom-border">col-md-1</div>
+            <div class="col-md-1 custom-border">col-md-1</div>
+            <div class="col-md-1 custom-border">col-md-1</div>
+            <div class="col-md-1 custom-border">col-md-1</div>
+            <div class="col-md-1 custom-border">col-md-1</div>
+            <div class="col-md-1 custom-border">col-md-1</div>
+            <div class="col-md-1 custom-border">col-md-1</div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 custom-border">col-md-8</div>
+            <div class="col-md-4 custom-border">col-md-4</div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 custom-border">col-md-6</div>
+            <div class="col-md-6 custom-border">col-md-6</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 custom-border">col-md-4</div>
+            <div class="col-md-4 custom-border">col-md-4</div>
+            <div class="col-md-4 custom-border">col-md-4</div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 custom-border">col-md-10</div>
+            <div class="col-md-2 custom-border">col-md-2</div>
+        </div> -->
+
+        <!-- tasarım çıkartma ilk ödev uygulaması -->
+        <!-- <div class="row">
+            <div class="col-md-4 custom-border">
+                <h3>MAKALE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, recusandae, totam facere, vero
+                    dolorum
+                    illo sit non quia suscipit animi quae soluta earum tempora minima officiis corrupti esse dolorem
+                    eaque!
+                </p>
+                <button class="btn btn-danger">Detaylı Bilgi</button>
+            </div>
+            <div align="center" class="col-md-4 custom-border">
+                <h3>MAKALE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, recusandae, totam facere, vero
+                    dolorum
+                    illo sit non quia suscipit animi quae soluta earum tempora minima officiis corrupti esse dolorem
+                    eaque!
+                </p>
+                <button class="btn btn-danger">Detaylı Bilgi</button>
+            </div>
+            <div align="end" class="col-md-4 custom-border">
+                <h3>MAKALE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, recusandae, totam facere, vero
+                    dolorum
+                    illo sit non quia suscipit animi quae soluta earum tempora minima officiis corrupti esse dolorem
+                    eaque!
+                </p>
+                <button class="btn btn-danger">Detaylı Bilgi</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 custom-border">
+                <h3>MAKALE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, recusandae, totam facere, vero
+                    dolorum
+                    illo sit non quia suscipit animi quae soluta earum tempora minima officiis corrupti esse dolorem
+                    eaque!
+                </p>
+                <button class="btn btn-danger">Detaylı Bilgi</button>
+            </div>
+            <div class="col-md-4 custom-border">
+                <h3>MAKALE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, recusandae, totam facere, vero
+                    dolorum
+                    illo sit non quia suscipit animi quae soluta earum tempora minima officiis corrupti esse dolorem
+                    eaque!
+                </p>
+                <button class="btn btn-danger">Detaylı Bilgi</button>
+            </div>
+            <div class="col-md-4 custom-border">
+                <h3>MAKALE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, recusandae, totam facere, vero
+                    dolorum
+                    illo sit non quia suscipit animi quae soluta earum tempora minima officiis corrupti esse dolorem
+                    eaque!
+                </p>
+                <button class="btn btn-danger">Detaylı Bilgi</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 custom-border">
+                <h3>MAKALE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, recusandae, totam facere, vero
+                    dolorum
+                    illo sit non quia suscipit animi quae soluta earum tempora minima officiis corrupti esse dolorem
+                    eaque!
+                </p>
+                <button class="btn btn-danger">Detaylı Bilgi</button>
+            </div>
+            <div class="col-md-4 custom-border">
+                <h3>MAKALE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, recusandae, totam facere, vero
+                    dolorum
+                    illo sit non quia suscipit animi quae soluta earum tempora minima officiis corrupti esse dolorem
+                    eaque!
+                </p>
+                <button class="btn btn-danger">Detaylı Bilgi</button>
+            </div>
+            <div class="col-md-4 custom-border">
+                <h3>MAKALE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, recusandae, totam facere, vero
+                    dolorum
+                    illo sit non quia suscipit animi quae soluta earum tempora minima officiis corrupti esse dolorem
+                    eaque!
+                </p>
+                <button class="btn btn-danger">Detaylı Bilgi</button>
+            </div>
+        </div> -->
+
+        <!-- sütun kaydırma -->
+        <!-- <div class="row">
+            <div class="col-md-6 custom-border">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, recusandae, totam facere, vero
+                    dolorum
+                </p>
+                <button class="btn btn-danger">Detaylı Bilgi</button>
+
+            </div>
+            <div class="col-md-4 custom-border">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, recusandae, totam facere, vero
+                    dolorum
+                </p>
+                <button class="btn btn-danger ">Detaylı Bilgi</button>
+            </div>
+            <div class="col-md-2 custom-border">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, recusandae, totam facere, vero
+                    dolorum
+                </p>
+                <button class="btn btn-danger">Detaylı Bilgi</button>
+            </div>
+            <div class="col-md-2 custom-border">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, recusandae, totam facere, vero
+                    dolorum
+                </p>
+                <button class="btn btn-danger">Detaylı Bilgi</button>
+            </div>
+            <div class="col-md-4 custom-border">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, recusandae, totam facere, vero
+                    dolorum
+                </p>
+                <button class="btn btn-danger ">Detaylı Bilgi</button>
+            </div>
+            <div class="col-md-2 custom-border">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, recusandae, totam facere, vero
+                    dolorum
+                </p>
+                <button class="btn btn-danger">Detaylı Bilgi</button>
+            </div>
+            <div class="col-md-4 custom-border">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, recusandae, totam facere, vero
+                    dolorum
+                </p>
+                <button class="btn btn-danger ">Detaylı Bilgi</button>
+            </div>
+        </div> -->
+
+        <!-- sütun sıralama -->
+        <!-- <div class="row custom-border">
+            <div class="order-2 col-md-3 custom-border">1</div>
+            <div class="order-4 col-md-3 custom-border">2</div>
+            <div class="order-3 col-md-3 custom-border">3</div>
+            <div class="order-1 col-md-3 custom-border">4</div>
+        </div> -->
+
+        <!-- mr/ml-auto boşluk bırakma ve öteleme -->
+        <!-- <div class="row custom-border">
+            <div class="col-md-3 custom-border">1</div>
+            <div class="col-md-5 custom-border offset-md-4">2</div>
+        </div> -->
+
+
+        <!--media nesnesi icinde yuvalama -->
+        <!-- <div class="d-flex">
+            <div class="flex-shrink-0 ">
+                <img src="./images/150x150.png" alt="" >
+            </div>
+            <div class="flex-grow-1 ms-3">
+                <p class="mb-5">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                </p>
+                <div class="d-flex">
+                    <div class="flex-shrink-0 align-self-center">
+                        <img src="./images/150x150.png" alt="">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, totam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+    </div>
+    </div>
+
+
+    <!-- 
+            -Responsive-
+
+            telefonlar icin col-xs(ekstra kücük)
+            telefonlar icin col-sm(kucuk)
+            disuztu bilgisayarlar icin col-md(orta boyut)
+            masaüstü icin col-lg(large)
+            televizyonlar icin col-xl(ekstra large)
+         -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
